@@ -1,0 +1,19 @@
+// Function for addition of two numbers
+function addition(a, b) {
+    return a + b;
+}
+
+// Function for subtraction of two numbers
+function subtraction(a, b) {
+    return a - b;
+}
+
+// Example usage
+let first_number = 10;
+let second_number = 5;
+
+let sum = addition(first_number, second_number);
+console.log(`Sum: ${sum}`);
+
+let difference = subtraction(first_number, second_number);
+console.log(`Difference: ${difference}`);
